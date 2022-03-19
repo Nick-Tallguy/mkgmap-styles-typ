@@ -1,4 +1,4 @@
-;=========== POLYGONES : PRIORITE DANS L'AFFICHAGE ======
+;=========== POLYGONS : RENDERING PRIORITY ======
 [_drawOrder]
 Type=0x032,1
 Type=0x10100,2
@@ -55,7 +55,7 @@ Type=0x06a,9
 
 
 
-;===================== POLYGONES ========================
+;===================== POLYGONS ========================
 
 
 [_polygon]
