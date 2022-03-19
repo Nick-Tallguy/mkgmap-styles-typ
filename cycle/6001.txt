@@ -48,6 +48,7 @@ Type=0x00e,8
 Type=0x006,9
 Type=0x013,9
 Type=0x01b,9
+Type=0x06a,9
 [End]
 
 
@@ -206,6 +207,20 @@ CustomColor=Day
 DaycustomColor:#390000
 Xpm="0 0 1 0"
 "1 c #BD956A"
+[end]
+
+
+[_polygon]
+Type=0x06a
+String1=0x04,building yes
+String2=0x03,gebouw
+String3=0x02,Bebauung
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#C54B88
+Xpm="0 0 1 0"
+"1 c #C54B88"
 [end]
 
 
