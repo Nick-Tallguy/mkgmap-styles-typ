@@ -20,15 +20,17 @@ housenumbers
 latin1
 code-page: 1252
 show-profiles: 1
+cycle-map
 merge-lines
 add-pois-to-areas
 add-pois-to-lines=mid
 link-pois-to-ways
 # min-size polygon can be up to 15 with 15 producing the smallest file size & less polygons.
-min-size-polygon: 4	
+min-size-polygon: 8	
 preserve-element-order
 keep-going
-net
+# net - not needed if route is specified
 ### commenting out housenumbers, route & index reduces file size from over 900mb (did not fit on 1GB microSD) to 600mb.  
 route
 index
+tdbfile
