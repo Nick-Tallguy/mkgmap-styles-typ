@@ -780,8 +780,8 @@ Xpm="0 0 1 0"
 [_polygon]
 Type=0x20
 String1=0x04,heather
-String2=0x03,heide
-String3=0x02,Heide
+String2=0x0c,grug
+String3=0x0d,fraoch
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
