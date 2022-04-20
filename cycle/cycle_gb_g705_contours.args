@@ -1,0 +1,45 @@
+family-id: 6001
+product-id: 1
+draw-priority: 25
+series-name: Contours (GB_v%date%)
+family-name: Contours (GB)
+description: Contours (GB)
+copyright-message: Map data © openstreetmap.org
+area-name: Contours_GB
+country-name: GBR
+country-abbr: GBR
+style-file: /home/nick/Github/mkgmap-styles-typ/cycle/cycle-style/
+overview-mapname: 60010000
+#download the latest sea files from from http://osm2.pleiades.uni-wuppertal.de/sea/latest/
+#precomp-sea: /home/nick/mapping/mkgmap/sea-latest.zip
+#generate-sea: land-tag=natural=background
+#download the latest bounds from http://osm2.pleiades.uni-wuppertal.de/bounds/latest/
+bounds: /home/nick/mapping/mkgmap/bounds-latest.zip
+dem: /home/nick/ncdata/mapping/Garmin/mkgmap-dem-data/
+#dem-type=HGT
+#dem-increment=20
+#dem-maxlevels=200
+#dem-path=dem
+#dem: map_with_dem_files
+dem-dists: 3314
+transparent
+#9942
+#,9942,9942,13248,44176
+#overview-dem-dist=88368
+#location-autofill: is_in,nearest
+#housenumbers
+latin1
+code-page: 1252
+show-profiles: 1
+#merge-lines
+#add-pois-to-areas
+#add-pois-to-lines=mid
+#link-pois-to-ways
+# min-size polygon can be up to 15 with 15 producing the smallest file size & less polygons.
+#min-size-polygon: 4	
+#preserve-element-order
+#keep-going
+#net
+### commenting out housenumbers, route & index reduces file size from over 900mb (did not fit on 1GB microSD) to 600mb.  
+#route
+#index

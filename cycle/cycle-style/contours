@@ -1,0 +1,23 @@
+# Contours take their name from the elevation setting.
+#
+HGT=/home/nick/ncdata/mapping/Garmin/mkgmap-dem-data/
+#
+contour=elevation & ele ~ '\d*[02468]00'
+    { name '${ele|conv:m=>ft}'; }
+    [0x22 resolution 18]
+contour=elevation & ele ~ '\d+[05]0'
+    { name '${ele|conv:m=>ft}'; }
+    [0x21 resolution 21]
+contour=elevation
+    { name '${ele|conv:m=>ft}'; }
+    [0x20 resolution 23]
+for this purpose.
+#
+#Currently, the internal generation of contour lines can only cope with 
+#maps fitting into a single data tile. It can read SRTM geotiffs, ASTER 
+#geotiffs and HGT files. I use the following options:
+#--contours
+#--dem-type=HGT
+#--dem-increment=20
+#--dem-maxlevels=200
+#--dem-path=HGT
