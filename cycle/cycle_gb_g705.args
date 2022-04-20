@@ -15,6 +15,12 @@ precomp-sea: /home/nick/mapping/mkgmap/sea-latest.zip
 generate-sea: land-tag=natural=background
 #download the latest bounds from http://osm2.pleiades.uni-wuppertal.de/bounds/latest/
 bounds: /home/nick/mapping/mkgmap/bounds-latest.zip
+#dem: /home/nick/ncdata/mapping/Garmin/mkgmap-dem-data/
+#dem: map_with_dem_files
+#dem-dists: 3314
+#9942
+#,9942,9942,13248,44176
+#overview-dem-dist=88368
 location-autofill: is_in,nearest
 housenumbers
 latin1
